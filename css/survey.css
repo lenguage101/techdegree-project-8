@@ -5,6 +5,12 @@
   padding: 10px;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  border: 2px solid #3333ff;
+}
+
 form {
   margin: 0 auto;
   text-align: left;
